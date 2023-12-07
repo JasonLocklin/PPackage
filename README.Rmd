@@ -36,6 +36,10 @@ devtools::install_github("JasonLocklin/PPackage")
 
 Full documentation website on: https://JasonLocklin.github.io/PPackage
 
+## Documentation
+
+Full documentation website on: https://JasonLocklin.github.io/PPackage
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
