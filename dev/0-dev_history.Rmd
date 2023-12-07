@@ -1,5 +1,5 @@
 ---
-title: "Development actions history"
+title: "R Package of Handy Personal Functions and Simple Data References"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -16,15 +16,16 @@ All commands that you use to use when developing packages...
 fusen::fill_description(
   pkg = here::here(),
   fields = list(
-    Title = "Build A Package From Rmarkdown File",
-    Description = "Use Rmarkdown First method to build your package. Start your package with documentation. Everything can be set from a Rmarkdown file in your project.",
+    Title = "Personal R Package of Handy Functions and Simple Data References",
+    Description = "This Package is intended to store some simple, personalized
+    R functions and a few small data sets that can be loaded into any project.",
     `Authors@R` = c(
-      person("John", "Doe", email = "john@email.me", role = c("aut", "cre"), comment = c(ORCID = "0000-0000-0000-0000"))
+      person("Jason", "Locklin", email = "Jason_Locklin@wrdsb.ca", role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7777-9065"))
     )
   )
 )
 # Define License with use_*_license()
-usethis::use_mit_license("John Doe")
+usethis::use_mit_license("Jason Locklin")
 ```
 
 # All-in-one function to deploy publicly on GitHub
