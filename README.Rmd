@@ -29,7 +29,7 @@ You can install the development version of PPackage from [GitHub](https://github
 
 ```{r install}
 # install.packages("devtools")
-devtools::install_github("JasonLocklin/PPackage")
+devtools::install_github("JasonLocklin/PPackage", force=TRUE)
 ```
 
 ## Documentation
