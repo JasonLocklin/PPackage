@@ -2,3 +2,4 @@
 
 export(my_median)
 export(my_other_median)
+export(paste_perc)

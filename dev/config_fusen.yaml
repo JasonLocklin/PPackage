@@ -2,10 +2,11 @@ flat_ppackage.Rmd:
   path: dev/flat_ppackage.Rmd
   state: active
   R:
-  - R/my_median.R
   - R/my_other_median.R
+  - R/paste_perc.R
+  - R/internal-datasets-schools-list.R
   tests:
-  - tests/testthat/test-my_median.R
+  - tests/testthat/test-paste_perc.R
   - tests/testthat/test-my_other_median.R
   vignettes: vignettes/get-started.Rmd
   inflate:
