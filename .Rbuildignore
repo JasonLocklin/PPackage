@@ -3,3 +3,5 @@
 ^README\.Rmd$
 ^\.github$
 ^codecov\.yml$
+^PPackage\.Rproj$
+^\.Rproj\.user$

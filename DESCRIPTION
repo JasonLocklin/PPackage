@@ -1,16 +1,24 @@
 Package: PPackage
-Version: 0.0.0.9000
 Title: Personal R Package Of Handy Functions And Simple Data References
-Description: This Package is intended to store some simple, personalized
-    R functions and a few small data sets that can be loaded into any project.
-Authors@R: person(given = "Jason",
-       family = "Locklin",
-       role = c("aut", "cre"),
-       email = "Jason_Locklin@wrdsb.ca",
-       comment = c(ORCID = "0000-0001-7777-9065"))
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jason", "Locklin", , "Jason_Locklin@wrdsb.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7777-9065"))
+Description: This Package is intended to store some simple, personalized R
+    functions and a few small data sets that can be loaded into any
+    project.
 License: MIT + file LICENSE
+URL: https://github.com/JasonLocklin/PPackage
+BugReports: https://github.com/JasonLocklin/PPackage/issues
+Imports: 
+    stats
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
+Config/fusen/version: 0.5.2
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-URL: https://github.com/JasonLocklin/PPackage
-BugReports: https://github.com/JasonLocklin/PPackage/issues

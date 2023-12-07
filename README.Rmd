@@ -20,13 +20,14 @@ knitr::opts_chunk$set(
 [![Codecov test coverage](https://codecov.io/gh/JasonLocklin/PPackage/branch/master/graph/badge.svg)](https://app.codecov.io/gh/JasonLocklin/PPackage?branch=master)
 <!-- badges: end -->
 
-The goal of PPackage is to ...
+The goal of PPackage is to provide a personal R package of handy functions and
+small data sets that can be available to any project I'm working on. 
 
 ## Installation
 
 You can install the development version of PPackage from [GitHub](https://github.com/) with:
 
-``` r
+```{r install}
 # install.packages("devtools")
 devtools::install_github("JasonLocklin/PPackage")
 ```
