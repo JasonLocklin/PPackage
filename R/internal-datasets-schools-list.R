@@ -21,6 +21,4 @@
 #drop the header, run sort -u, and then add the header back and
 #save as schools.csv.
 #datafile <- system.file("schools.csv", package = "PPackage")
-schools <- read.csv("inst/schools.csv", encoding = "UTF-8")[,c(1,2,4)]
 "schools"
-schools

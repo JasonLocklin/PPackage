@@ -10,6 +10,8 @@ Description: This Package is intended to store some simple, personalized R
 License: MIT + file LICENSE
 URL: https://github.com/JasonLocklin/PPackage
 BugReports: https://github.com/JasonLocklin/PPackage/issues
+Depends: 
+    R (>= 2.10)
 Imports: 
     stats
 Suggests: 
@@ -20,5 +22,6 @@ VignetteBuilder:
     knitr
 Config/fusen/version: 0.5.2
 Encoding: UTF-8
+LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3

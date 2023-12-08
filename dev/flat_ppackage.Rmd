@@ -27,6 +27,12 @@ pkgload::load_all(export_all = FALSE)
 
 ## Schools List
 
+```{r dev-schools}
+schools <- read.csv("inst/schools.csv", encoding = "UTF-8")[,c(1,2,4)]
+usethis::use_data(schools, overwrite = T, compress = "xz")
+```
+
+
 ```{r function-schools}
 #' schools
 #'
@@ -49,9 +55,7 @@ pkgload::load_all(export_all = FALSE)
 #drop the header, run sort -u, and then add the header back and
 #save as schools.csv.
 #datafile <- system.file("schools.csv", package = "PPackage")
-schools <- read.csv("inst/schools.csv", encoding = "UTF-8")[,c(1,2,4)]
 "schools"
-schools
 ```
 
 
